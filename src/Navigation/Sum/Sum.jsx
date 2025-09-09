@@ -23,7 +23,9 @@ export default function Sum() {
       //Lúc này part còn ["Trần Quốc Tuấn Duy"]
       let [rawName]=parts; //"Trần Quốc Tuấn Duy"
       // console.log(rawName);
-      let ten= rawName.split(" ")
+      let ten= rawName.trim()
+    .replace(/\s+/g, " ")   // gộp space/tab thừa
+    .split(" ")
       let key= ten.map(value=>{
         let firstWord= value.charAt(0).toUpperCase();
         return firstWord+ value.slice(1).toLowerCase();
