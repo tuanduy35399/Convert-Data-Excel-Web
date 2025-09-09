@@ -1,0 +1,30 @@
+textarea {
+  width: 300px;          /* chiều rộng */
+  height: 600px;        /* chiều cao mặc định */
+  padding: 12px;        /* khoảng cách chữ với viền */
+  border: 2px solid #cccccc; /* viền */
+  border-radius: 5px;  /* bo góc */
+  font-size: 14px;      /* cỡ chữ */
+  line-height: 1.5;     /* khoảng cách dòng */
+  resize:both;         /* cho phép kéo giãn cả ngang lẫn dọc */
+  transition: border-color 0.3s, box-shadow 0.3s;
+  margin: 20px;
+  
+}
+
+textarea:focus {
+  border-color: #4f46e5;   /* đổi màu viền khi focus */
+  box-shadow: 0 0 8px rgba(79, 70, 229, 0.4); /* hiệu ứng sáng */
+  outline: none;           /* bỏ viền xanh mặc định */
+}
+.solve{
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 50px;
+    width: 100px;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+.solve:hover{
+    transform: scale(1.2);
+}
