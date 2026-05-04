@@ -12,7 +12,7 @@ export default function App() {
   // }
   return (
     <>
-      <center><h1>Chuyển đổi dữ liệu thông minh</h1></center>
+      <center><h1>Chuyển đổi dữ liệu thông minh</h1><p>made by github tuanduy35399</p></center>
 
         <div className="navigation">
           <ButtonList Clicked={setSelectedId} isActive={selectedId}/>
