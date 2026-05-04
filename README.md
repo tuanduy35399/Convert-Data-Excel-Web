@@ -2,7 +2,8 @@
 
 Xin chào 👋 Đây là website **Convert Data Excel** được xây dựng bằng **ReactJS**.  
 Website hỗ trợ thao tác xử lý dữ liệu điểm danh từ file Excel một cách nhanh chóng và tiện lợi.  
-
+Try it here 
+https://convert-data-excel-web.vercel.app/
 ---
 
 ## 🚀 Demo Chức năng
