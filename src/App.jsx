@@ -14,7 +14,7 @@ export default function App() {
     <>
       <center><h1>Chuyển đổi dữ liệu thông minh</h1><p>made by github tuanduy35399</p></center>
 
-        <div className="navigation">
+        <div className="navigation" style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
           <ButtonList Clicked={setSelectedId} isActive={selectedId}/>
         </div>
         <div className="layout_render">

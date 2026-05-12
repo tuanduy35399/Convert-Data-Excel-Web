@@ -1,6 +1,7 @@
 import Counter from "./Counter/Counter";
 import Sum from "./Sum/Sum";
 import Filter from "./Filter/Filter";
+import ByMeCoffee from "./ByMeCoffe";
 export const data=[
     {
         id: 'Counter',
@@ -14,5 +15,8 @@ export const data=[
         id: 'Filter',
         render: Filter
     },
-    
+        {
+        id: 'By Me Coffee',
+        render: ByMeCoffee
+    },
 ]
