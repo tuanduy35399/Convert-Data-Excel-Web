@@ -3,7 +3,7 @@ import { useState } from "react";
 import ButtonList from "./Component/ButtonList";
 import RenderBox from "./Component/RenderBox";
 import "./App.css";
-import { Analytics } from "@vercel/analytics/next";
+
 export default function App() {
   const [selectedId, setSelectedId] = useState("Counter");
   // const [active, setActive] =useState(false)
@@ -32,7 +32,6 @@ export default function App() {
       <div className="layout_render">
         <RenderBox topic={selectedId} />
       </div>
-      <Analytics />
     </>
   );
 }
